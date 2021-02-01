@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Bangers', cursive;
   background: linear-gradient(to right, #BBC96B 0%, #3EA0FF 100%, #BEC58E 100%);
   user-select: none;
