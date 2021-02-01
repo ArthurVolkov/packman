@@ -31,13 +31,15 @@ body {
   width: 40%;
   height: 15%;
   top: 40%;
-  left: 40%;
+  left: auto;
   font-size: xxx-large;
   background-color: crimson;
+  border-radius: 10px;
   display: none;
 }
 
 .modal button {
   width: 40%;
   height: 40%;
+  cursor: pointer;
 }
