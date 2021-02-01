@@ -1,0 +1,54 @@
+/* body {
+  background-color: black;
+  color:white;
+} */
+
+
+body {
+  font-family: 'Bangers', cursive;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cell {
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: cadetblue;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+
+.modal {
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  height: 15%;
+  top: 40%;
+  left: 40%;
+  font-size: xxx-large;
+  background-color: crimson;
+  display: none;
+}
+
+.modal button {
+  width: 40%;
+  height: 40%;
+}
+
+/* .table td{
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  background-color: chartreuse;
+  font-size: 25px;
+} */
