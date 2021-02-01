@@ -1,31 +1,28 @@
-body {
-  background: linear-gradient(to right, #BBC96B 0%, #3EA0FF 100%, #BEC58E 100%);
+* {
+  box-sizing: border-box;
 }
-
 
 body {
   font-family: 'Bangers', cursive;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  background: linear-gradient(to right, #BBC96B 0%, #3EA0FF 100%, #BEC58E 100%);
   user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boarg-container {
+
 }
 
 .cell {
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   font-size: 1.5em;
   background-color: cadetblue;
 }
-
-/* .formLine {
-  margin:10px;
-  padding:10px;
-  background-color: cornflowerblue;
-} */
-
 
 .modal {
   position: absolute;
@@ -43,11 +40,3 @@ body {
   width: 40%;
   height: 40%;
 }
-
-/* .table td{
-  width: 10px;
-  height: 10px;
-  text-align: center;
-  background-color: chartreuse;
-  font-size: 25px;
-} */
